@@ -1,18 +1,18 @@
-* {
-    font-family: 'Time New Romaan', 'Times New Roman', Times, serif ;
+.navbar {
+    font-family: 'Times New Roman', Times, serif
 }
 
-
 .navbar {
-    height: 10vh;
+    height: 10vh
+
 }
 
 #banner {
-    height: 90vh;
+    height: 90vh
 }
 
 #banner .ngee {
-   background: url(K.jpg);
+    background: url('./city.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -23,37 +23,33 @@
 }
 
 .btn-primary {
-    background-color: rgb(28, 64, 193) !important;
-    border: rgb(28, 64, 193)
+    background-color:coral !important;
+    border: coral;
     border-radius: 0;
-    padding: 12px 34px;
+    padding: 12xp 34xp;
     font-size: 20px;
 }
 
 #banner h6 {
     text-transform: uppercase;
-    color:rgb(28, 64, 193)
+    color:coral ;
 }
 
-#banner h1, #services h2 {
+#banner h1 {
     font-size: 68px;
 }
 
-#about {
+#banner h1, #service h2 {
+    font-size: 68px
+}
+
+#about ng{
     padding: 100px;
-    background-color: rgb(28, 64, 193)
-    
+    background-color:aquamarine;
 }
 
-#services {
-    padding: 100px;
-    
+#about .ngee {
+
 }
 
-.card {
-    border: none;
-}
-
-.card-image-top {
-    border: 2px solid #d23400;
 }
